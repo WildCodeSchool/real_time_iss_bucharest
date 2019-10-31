@@ -22,7 +22,7 @@ class Welcome extends Component {
                             The International Space Station is a space station in low Earth orbit, at approximately 400 km from the ground.<br/>
                             At 28 800 km/h it only takes 90 minutes for the weightless laboratory to make a complete circuit of Earth.
                             </h2>
-                                <button className="welcome-call-to-action col-4 btn btn-dark animated bounce">Track ISS</button>
+                                <button className="welcome-call-to-action col-4 btn btn-dark"><a href="#">Track ISS</a></button>
                         </div>
                     </div>
                 </div>
