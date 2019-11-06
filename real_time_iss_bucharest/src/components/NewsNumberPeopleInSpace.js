@@ -5,6 +5,8 @@ import News from './News';
 export default class NewsNumberPersonInSpace extends React.Component {
     state = {
       persons: [],
+      latitude: '',
+      longitude: ''
     };
 
     componentDidMount() {
