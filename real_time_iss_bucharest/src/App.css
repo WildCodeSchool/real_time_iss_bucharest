@@ -1,22 +1,29 @@
-.App {
+.newsSection {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  justify-content: center;
+  align-content: center;
+}
+
+.newsBox {
+  margin: 20px;
+  height: 249px;
+}
+
+.newsBoxContainer {
+  display: flex;
+  align-items: center;
+}
+
+.newsBoxText {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.peopleThatAreInSpace {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.newsBoxTitle {
+  text-align: center;
 }
