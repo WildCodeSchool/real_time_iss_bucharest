@@ -20,3 +20,21 @@
 .App-link {
   color: #09d3ac;
 }
+/* 
+.map {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.justTheMap{
+  z-index: -1;
+  /* position: absolute; */
+/* } */
+
+/* .btn-container {
+  z-index: 1000;
+  /* position: absolute; */
+  /* margin-top: 200px; */
+
+/* } */
