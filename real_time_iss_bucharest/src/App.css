@@ -1,22 +1,20 @@
-.App {
-  text-align: center;
+.imageCarousel {
+    width: 230px;
+    height: 150px;
 }
 
-.App-logo {
-  height: 40vmin;
+.containerCarousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -10px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.containerCarousel>* {
+    flex: 1 1 1 1 230px;
+    margin: 10px;
 }
 
-.App-link {
-  color: #09d3ac;
+.wrapperCarousel {
+    max-width: 1200px;
 }
