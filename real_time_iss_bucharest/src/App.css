@@ -1,22 +1,88 @@
-.App {
-  text-align: center;
+.form-container {
+  height: 80vh;
 }
 
-.App-logo {
-  height: 40vmin;
+.rowThatWorks {
+  height: 80vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.newsletter-section {
+  height: 100vh;
 }
 
-.App-link {
-  color: #09d3ac;
+.newsletter {
+  min-height: 85vh;
 }
+
+.newsletter-inputs {
+  padding-bottom: 20px;
+}
+
+.newsletter-section {
+  height: 100vh;
+}
+
+.newsletter {
+  min-height: 85vh;
+}
+
+.newsletter-inputs {
+  padding-bottom: 20px;
+}
+
+.display-5 {
+  padding-bottom: 20px;
+}
+
+.modalHeader {
+  color: red;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.cancelBtn {
+  display: hidden;
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+  .form-img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 993px) {
+  .display-4 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+  .rowThatWorks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=App.css.map */
