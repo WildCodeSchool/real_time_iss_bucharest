@@ -7,32 +7,33 @@ import ModalHeader from 'react-bootstrap/ModalHeader'
 import ModalBody from 'react-bootstrap/ModalBody'
 import ModalFooter from 'react-bootstrap/ModalFooter'
 
+// const cancel = document.querySelector('.cancelBtn')
+
 export default class ModalComponent extends React.Component {
     constructor(props) {
       super(props);
       this.state = { show: this.props.show,
         name: '',team :'' ,country: '',
-        ModalFromBtn: false};
+        valueUpdated: false};
 
       this.toggle = this.toggle.bind(this);
     }
 
-    showCancelBtn() {
-      setTimeout(() => {
-        let cancel = document.querySelector('cancelBtn')
-        cancel.style.visibility="block"
-        console.log('Set timeout')
-      }, 1000);
-    }
+    // showCancelBtn() {
+    //   console.log('method triggered')
+    //   setTimeout(() => {
+    //     console.log('Set timeout')
+    //     cancel.style.visibility="visible";
+    //   }, 1000);
+    // }
 
     toggle() {
       this.setState({
         show: !this.state.show,
-
       });
       console.log('clicked')
       console.log(this.state.show)
-      this.showCancelBtn()
+      // this.showCancelBtn()
     }
 
     alertThisShouldWork() {
@@ -41,17 +42,15 @@ export default class ModalComponent extends React.Component {
 
 
     render() {
-        if(this.props.show  && !this.state.ModalFromBtn) {
+        if(this.props.show && !this.state.valueUpdated) {
             this.setState({
               show: this.props.show,
-              ModalFromBtn: true})
+              valueUpdated: true})
         }
-        var show = this.state.show
-        console.log(show)
       return (
           <div>
-          <Button color="success" onClick={this.toggle}>React Modal</Button>
-          <Modal className="bg-dark" show={show} keyboard={true} onEscapeKeyDown={()=> {
+          {/* <Button color="success" onClick={this.toggle}>React Modal</Button> */}
+          <Modal className="bg-dark" show={this.state.show} keyboard={true} onEscapeKeyDown={()=> {
               console.log('ESCAPE')
               this.toggle()
           }}>
@@ -111,7 +110,7 @@ export default class ModalComponent extends React.Component {
             </form>
           </Modal>
           </div>
-        
+
       );
     }
   }

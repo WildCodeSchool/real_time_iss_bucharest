@@ -8,17 +8,6 @@ import Modal from './components/Modal'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { tsConstructorType } from '@babel/types';
 
-
-// function App() {
-
-//   return (
-//     <div className="App">
-//       <Newsletter />
-//       <Modal show={false}/>
-//     </div>
-//   );
-// }
-
 class App extends React.Component{
   constructor(props){
     super(props);
@@ -39,7 +28,6 @@ class App extends React.Component{
   }
 
   render(){
-    console.log(this.state.checkBoxThatOpensModal)
     return (
       <div className="App">
         <Newsletter callBack={this.dataFn.bind(this)}/>
