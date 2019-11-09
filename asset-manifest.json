@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/real_time_bucharest/static/css/main.b100e6da.chunk.css",
-    "main.js": "/real_time_bucharest/static/js/main.2193a954.chunk.js",
-    "main.js.map": "/real_time_bucharest/static/js/main.2193a954.chunk.js.map",
-    "runtime-main.js": "/real_time_bucharest/static/js/runtime-main.0e2dd727.js",
-    "runtime-main.js.map": "/real_time_bucharest/static/js/runtime-main.0e2dd727.js.map",
-    "static/js/2.8a4042d9.chunk.js": "/real_time_bucharest/static/js/2.8a4042d9.chunk.js",
-    "static/js/2.8a4042d9.chunk.js.map": "/real_time_bucharest/static/js/2.8a4042d9.chunk.js.map",
-    "index.html": "/real_time_bucharest/index.html",
-    "precache-manifest.00eda414931cde686406fa744dd8d0e5.js": "/real_time_bucharest/precache-manifest.00eda414931cde686406fa744dd8d0e5.js",
-    "service-worker.js": "/real_time_bucharest/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/real_time_bucharest/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/real_time_bucharest/static/media/logo.25bf045c.svg"
+    "main.css": "/real_time_iss_bucharest/static/css/main.b100e6da.chunk.css",
+    "main.js": "/real_time_iss_bucharest/static/js/main.e589d901.chunk.js",
+    "main.js.map": "/real_time_iss_bucharest/static/js/main.e589d901.chunk.js.map",
+    "runtime-main.js": "/real_time_iss_bucharest/static/js/runtime-main.4329763f.js",
+    "runtime-main.js.map": "/real_time_iss_bucharest/static/js/runtime-main.4329763f.js.map",
+    "static/js/2.8a4042d9.chunk.js": "/real_time_iss_bucharest/static/js/2.8a4042d9.chunk.js",
+    "static/js/2.8a4042d9.chunk.js.map": "/real_time_iss_bucharest/static/js/2.8a4042d9.chunk.js.map",
+    "index.html": "/real_time_iss_bucharest/index.html",
+    "precache-manifest.3a817e5ce11511a930150e4d53cd533e.js": "/real_time_iss_bucharest/precache-manifest.3a817e5ce11511a930150e4d53cd533e.js",
+    "service-worker.js": "/real_time_iss_bucharest/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/real_time_iss_bucharest/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/real_time_iss_bucharest/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e2dd727.js",
+    "static/js/runtime-main.4329763f.js",
     "static/js/2.8a4042d9.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.2193a954.chunk.js"
+    "static/js/main.e589d901.chunk.js"
   ]
 }
