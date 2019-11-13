@@ -3,9 +3,6 @@ import './welcome.css'
 
 
 class Welcome extends Component {
-    constructor(){
-        super()
-    }
     render() {
         return(
         <div className='welcome container-fluid row align-items-center p-3 mb-2 bg-light text-dark'>

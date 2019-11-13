@@ -5,7 +5,7 @@ import {Nav} from 'react-bootstrap';
 const Header = (props) => {
   return ( <div>
     <Navbar bg="dark" variant="dark" className='headerContainer'>
-        <img src={props.image}/>
+        <img src={props.image} alt="logo"/>
         <Nav className="mr-auto" className='navbarHeader'>
           <Nav.Link href="#">Home</Nav.Link>
           <Nav.Link href="#">Map</Nav.Link>
