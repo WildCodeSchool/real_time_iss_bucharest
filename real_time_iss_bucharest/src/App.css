@@ -10,8 +10,8 @@
 .App-link {
   color: #09d3ac;
 }
-/* 
-.map {
+
+/* .map {
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -19,12 +19,42 @@
 
 .justTheMap{
   z-index: -1;
-  /* position: absolute; */
-/* } */
+  position: absolute;
+}
 
-/* .btn-container {
+.btn-container {
   z-index: 1000;
-  /* position: absolute; */
-  /* margin-top: 200px; */
+  position: absolute;
+  margin-top: 200px;
+ }
+  */
+.newsSection {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+}
 
-/* } */
+.newsBox {
+  margin: 20px;
+  height: 249px;
+}
+
+.newsBoxContainer {
+  display: flex;
+  align-items: center;
+}
+
+.newsBoxText {
+  text-align: center;
+}
+
+.peopleThatAreInSpace {
+  list-style: none;
+}
+
+.newsBoxTitle {
+  text-align: center;
+}
