@@ -5,7 +5,7 @@ import Component from './components/carousel'
 function App() {
   return (
     <div className="App">
-      <Component />
+         <Component />
     </div>
   );
 }
