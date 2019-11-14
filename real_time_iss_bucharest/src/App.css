@@ -35,6 +35,8 @@
   margin: 0 auto;
   justify-content: center;
   align-content: center;
+  position: relative;
+  top: 700px;
 }
 
 .newsBox {
