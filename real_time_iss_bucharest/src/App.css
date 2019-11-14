@@ -20,17 +20,36 @@
 .App-link {
   color: #09d3ac;
 }
-/* 
-.map {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
+
+.head_map_section{
+  display: flex;
+  flex-direction: row;
 }
 
+.btn-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-container p {
+  margin-left: 50px;
+}
+
+.btn-container button {
+  height: 35px;
+}
+
+.map {
+  position: relative;
+  width: 95vw;
+  height: 120vh;
+}
+
+
 .justTheMap{
-  z-index: -1;
-  /* position: absolute; */
-/* } */
+  height: 80vh;
+}
 
 /* .btn-container {
   z-index: 1000;
