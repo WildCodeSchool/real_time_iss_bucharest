@@ -58,3 +58,24 @@
 .newsBoxTitle {
   text-align: center;
 }
+.imageCarousel {
+    width: 230px;
+    height: 150px;
+}
+
+.containerCarousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -10px
+}
+
+.containerCarousel>* {
+    flex: 1 1 1 1 230px;
+    margin: 10px;
+}
+
+.wrapperCarousel {
+    max-width: 1200px;
+    margin: 0 auto;
+}

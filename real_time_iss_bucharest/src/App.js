@@ -6,6 +6,7 @@ import GMap from './components/Map'
 import Welcome from './components/Welcome'
 import News from './components/News';
 import NewsNumberOfPeople from './components/NewsNumberPeopleInSpace';
+import Component from './components/carousel'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -29,6 +30,7 @@ function App() {
       <News title='Lorem Ipsum' subtitle='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus ac odio molestie, eu pretium dui faucibus. Curabitur eleifend eu eros ut hendrerit. '/>
       <News title='Lorem Ipsum' subtitle='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus ac odio molestie, eu pretium dui faucibus. Curabitur eleifend eu eros ut hendrerit. '/>
     </section>
+         <Component />
     </div>
   );
 }

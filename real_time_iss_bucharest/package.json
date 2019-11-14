@@ -8,7 +8,10 @@
     "google-maps-react": "^2.0.2",
     "react": "^16.10.2",
     "react-bootstrap": "^1.0.0-beta.14",
+    "images": "^3.0.2",
     "react-dom": "^16.10.2",
+    "react-images": "^1.0.0",
+    "react-images-lightbox": "^0.5.6",
     "react-scripts": "3.2.0"
   },
   "scripts": {
