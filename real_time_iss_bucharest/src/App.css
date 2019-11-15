@@ -86,7 +86,7 @@
   text-align: center;
 }
 .imageCarousel {
-    width: 230px;
+    width: 220px;
     height: 150px;
 }
 
@@ -98,12 +98,12 @@
 }
 
 .containerCarousel>* {
-    flex: 1 1 1 1 230px;
+    flex: 1 1 1 1 220px;
     margin: 10px;
 }
 
 .wrapperCarousel {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 .form-container {
