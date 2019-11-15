@@ -1,0 +1,80 @@
+
+.form-container {
+    height: 80vh;
+  }
+  
+  .rowThatWorks {
+    height: 80vh;
+  }
+
+  .newsletter-section {
+    height: 100vh;
+  }
+  
+  .newsletter {
+    min-height: 85vh;
+  }
+
+  .newsletter-inputs {
+    padding-bottom: 20px;
+  }
+
+.newsletter-section {
+    height: 100vh;
+}
+
+.newsletter {
+    min-height: 85vh;
+  }
+
+.newsletter-inputs {
+    padding-bottom: 20px;
+}
+
+.display-5 {
+  padding-bottom: 20px;
+}
+
+.modalHeader {
+  color:red;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.cancelBtn {
+  visibility: hidden;
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+  .form-img{
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 993px) {
+  .display-4 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.0;
+  }
+
+  .rowThatWorks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
