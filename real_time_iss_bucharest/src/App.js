@@ -7,10 +7,12 @@ import NewsNumberOfPeople from './components/NewsNumberPeopleInSpace';
 import Component from './components/carousel'
 import Newsletter from './components/Newsletter'
 import Modal from './components/Modal'
+import Footer from './components/Footer'
 import { tsConstructorType } from '@babel/types';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
 
 
 
@@ -64,6 +66,7 @@ class App extends React.Component{
           <Component />
         <Newsletter callBack={this.dataFn.bind(this)}/>
         <Modal show={this.state.checkBoxThatOpensModal}/>
+        <Footer></Footer>
       </div>
     );
   }
