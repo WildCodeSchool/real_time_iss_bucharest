@@ -16,7 +16,7 @@ class Welcome extends Component {
 
     render() {
         return(
-        <div className='welcome container-fluid row align-items-center p-3 mb-2 bg-light text-dark'>
+        <div className='welcome container-fluid row align-items-center p-3 mb-2 bg-light text-dark' id={this.props.id}>
             <div className="container welcome-main">
                 <div className="row align-items-center">
                     <div className="col-5">

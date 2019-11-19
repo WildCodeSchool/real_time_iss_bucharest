@@ -16,7 +16,7 @@ handleCheck() {
 
 render() {
     return (
-    <Container className="bg-dark text-light form-container" fluid>
+    <Container className="bg-dark text-light form-container" id={this.props.id} fluid>
         <Row className='align-items-center rowThatWorks'>
             <Col xs={6} md={{ span: 6, offset:0 }}>
                 <Image className='form-img img-fluid' src={require('../img/0701890_orig.jpg')} />

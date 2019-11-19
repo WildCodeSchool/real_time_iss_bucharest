@@ -59,7 +59,7 @@ class Component extends React.Component {
     const { modalIsOpen, selectedIndex } = this.state;
 
     return (
-      <div>
+      <div id={this.props.id}>
         <ModalGateway>
           {modalIsOpen ? (
             <Modal onClose={() => this.toggleModal(0)}>

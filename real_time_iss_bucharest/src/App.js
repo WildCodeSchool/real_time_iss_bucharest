@@ -51,11 +51,11 @@ class App extends React.Component{
     return (
       <div className="App">
         <Header image = 'https://via.placeholder.com/70x60'/>
-        <Welcome launchTracking={this.launchTracking.bind(this)}/>
+        <Welcome launchTracking={this.launchTracking.bind(this)} id='welcome'/>
         <div>
         <GMap id="mapSection" className="map map_component" welcomeBtn={this.state.btnFromWelcomeSectionClicked} />
         </div>
-      <section className='newsSection'>
+      <section className='newsSection' id='newsSection'>
         <News title='Lorem Ipsum' subtitle='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus ac odio molestie, eu pretium dui faucibus. Curabitur eleifend eu eros ut hendrerit. '/>
         <NewsNumberOfPeople />
         <News title='Lorem Ipsum' subtitle='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus ac odio molestie, eu pretium dui faucibus. Curabitur eleifend eu eros ut hendrerit. '/>
@@ -63,8 +63,8 @@ class App extends React.Component{
         <News title='Lorem Ipsum' subtitle='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus ac odio molestie, eu pretium dui faucibus. Curabitur eleifend eu eros ut hendrerit. '/>
         <News title='Lorem Ipsum' subtitle='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus ac odio molestie, eu pretium dui faucibus. Curabitur eleifend eu eros ut hendrerit. '/>
       </section>
-          <Component />
-        <Newsletter callBack={this.dataFn.bind(this)}/>
+          <Component id='Carousel'/>
+        <Newsletter callBack={this.dataFn.bind(this)} id='newsletter'/>
         <Modal show={this.state.checkBoxThatOpensModal}/>
       </div>
     );
