@@ -1,22 +1,28 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #09d3ac;
+/* HEADER TOGGLE FUNCTION - TO BE APPROVED */
+.headerContainer {
+  min-width:100%;
+  position:fixed;
+  z-index:999999;
+  top:-68px;
+  opacity:.76;
+  -webkit-transition:all 0.8s ease-in-out;
+  -moz-transition:all 0.8s ease-in-out;
+  -o-transition:all 0.8s ease-in-out;
+  -ms-transition:all 0.8s ease-in-out;
+  transition:all 0.8s ease-in-out;
+}
+
+.headerContainer:hover {
+  opacity:1;
+  top:0px;
+  -webkit-transition:all 0.8s ease-in-out;
+  -moz-transition:all 0.8s ease-in-out;
+  -o-transition:all 0.8s ease-in-out;
+  -ms-transition:all 0.8s ease-in-out;
+  transition:all 0.8s ease-in-out;
 }

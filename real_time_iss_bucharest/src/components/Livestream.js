@@ -2,6 +2,25 @@ import React from 'react'
 import YouTube from 'react-youtube'
 
 class Livestream extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = { width: 0, height: 0 };
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+      }
+      
+      componentDidMount() {
+        this.updateWindowDimensions();
+        window.addEventListener('resize', this.updateWindowDimensions);
+      }
+      
+      componentWillUnmount() {
+        window.removeEventListener('resize', this.updateWindowDimensions);
+      }
+      
+      updateWindowDimensions() {
+        this.setState({ width: window.innerWidth, height: window.innerHeight });
+      }
+
     onPlayerReady(event) {
         console.log('onPlayerReady function launched')
         var embedCode = event.target.getVideoEmbedCode();
@@ -14,8 +33,8 @@ class Livestream extends React.Component{
 
     render(){
         const opts = {
-            height: '700',
-            width: '1300',
+            height: this.state.height,
+            width: this.state.width,
             playerVars: {
                 autoplay: 1
             }
