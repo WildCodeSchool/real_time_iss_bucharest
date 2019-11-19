@@ -7,12 +7,14 @@ import NewsNumberOfPeople from './components/NewsNumberPeopleInSpace';
 import Component from './components/carousel'
 import Newsletter from './components/Newsletter'
 import Modal from './components/Modal'
-import Logo from './components/Logo/Logo.js'
+// import Logo from './components/Logo/Logo.js'
+import Footer from './components/Footer'
 
-import { tsConstructorType } from '@babel/types';
+// import { tsConstructorType } from '@babel/types';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
 
 
 
@@ -66,6 +68,7 @@ class App extends React.Component{
           <Component id='Carousel'/>
         <Newsletter callBack={this.dataFn.bind(this)} id='newsletter'/>
         <Modal show={this.state.checkBoxThatOpensModal}/>
+        <Footer />
       </div>
     );
   }

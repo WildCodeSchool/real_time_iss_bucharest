@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React from 'react'
 import '../App.css'
 
 import Modal from 'react-bootstrap/Modal'
