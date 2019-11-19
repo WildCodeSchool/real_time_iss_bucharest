@@ -7,6 +7,8 @@ import NewsNumberOfPeople from './components/NewsNumberPeopleInSpace';
 import Component from './components/carousel'
 import Newsletter from './components/Newsletter'
 import Modal from './components/Modal'
+import Logo from './components/Logo/Logo.js'
+
 import { tsConstructorType } from '@babel/types';
 
 import 'bootstrap/dist/css/bootstrap.min.css';

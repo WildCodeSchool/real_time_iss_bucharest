@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 // PACKAGE FOR SCROLLING FROM ONE SECTION TO ANOTHER:  https://scotch.io/tutorials/implementing-smooth-scrolling-in-react
 // FOR SCROLLING ANIMATION INITIATED BY THE WELCOME SECTION BTN
 import { Link } from "react-scroll";
+import Logo from '../components/Logo/Logo';
 
 import './welcome.css'
 
@@ -19,7 +20,9 @@ class Welcome extends Component {
             <div className="container welcome-main">
                 <div className="row align-items-center">
                     <div className="col-5">
-                        <div className="logo">Maria's awesome logo goes here</div>
+                        <div className="logo">
+                            <Logo />
+                        </div>
                     </div>
                     <div className="col-7">
                         <div className="row">
