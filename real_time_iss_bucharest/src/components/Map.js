@@ -20,7 +20,7 @@ class GMap extends React.Component {
             longitude : '',
             latitude : '',
             welcomeBtnClicked : this.props.welcomeBtn,
-            flag: !this.props.welcomeBtn
+            // flag: !this.props.welcomeBtn
         }
     }
 
