@@ -56,6 +56,7 @@ class GalleryCarousel extends React.Component {
     this.setState({ modalIsOpen: !this.state.modalIsOpen, selectedIndex: j });
   }
   render() {
+    
     const { modalIsOpen, selectedIndex } = this.state;
 
     return (
