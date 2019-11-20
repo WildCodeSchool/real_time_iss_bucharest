@@ -52,7 +52,7 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
-        <Header image = 'https://via.placeholder.com/70x60'/>
+        <Header/>
         <Welcome launchTracking={this.launchTracking.bind(this)} id='welcome'/>
         <div>
         <GMap id="mapSection" className="map map_component" welcomeBtn={this.state.btnFromWelcomeSectionClicked} />
