@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/real_time_iss_bucharest/static/css/main.b100e6da.chunk.css",
-    "main.js": "/real_time_iss_bucharest/static/js/main.e589d901.chunk.js",
-    "main.js.map": "/real_time_iss_bucharest/static/js/main.e589d901.chunk.js.map",
+    "main.css": "/real_time_iss_bucharest/static/css/main.aba14b30.chunk.css",
+    "main.js": "/real_time_iss_bucharest/static/js/main.ffb36d19.chunk.js",
+    "main.js.map": "/real_time_iss_bucharest/static/js/main.ffb36d19.chunk.js.map",
     "runtime-main.js": "/real_time_iss_bucharest/static/js/runtime-main.4329763f.js",
     "runtime-main.js.map": "/real_time_iss_bucharest/static/js/runtime-main.4329763f.js.map",
-    "static/js/2.8a4042d9.chunk.js": "/real_time_iss_bucharest/static/js/2.8a4042d9.chunk.js",
-    "static/js/2.8a4042d9.chunk.js.map": "/real_time_iss_bucharest/static/js/2.8a4042d9.chunk.js.map",
+    "static/css/2.0624914a.chunk.css": "/real_time_iss_bucharest/static/css/2.0624914a.chunk.css",
+    "static/js/2.1416a2c4.chunk.js": "/real_time_iss_bucharest/static/js/2.1416a2c4.chunk.js",
+    "static/js/2.1416a2c4.chunk.js.map": "/real_time_iss_bucharest/static/js/2.1416a2c4.chunk.js.map",
     "index.html": "/real_time_iss_bucharest/index.html",
-    "precache-manifest.3a817e5ce11511a930150e4d53cd533e.js": "/real_time_iss_bucharest/precache-manifest.3a817e5ce11511a930150e4d53cd533e.js",
+    "precache-manifest.06426a4dd88836995313501835ab0203.js": "/real_time_iss_bucharest/precache-manifest.06426a4dd88836995313501835ab0203.js",
     "service-worker.js": "/real_time_iss_bucharest/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/real_time_iss_bucharest/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/real_time_iss_bucharest/static/media/logo.25bf045c.svg"
+    "static/css/2.0624914a.chunk.css.map": "/real_time_iss_bucharest/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.aba14b30.chunk.css.map": "/real_time_iss_bucharest/static/css/main.aba14b30.chunk.css.map",
+    "static/media/0701890_orig.jpg": "/real_time_iss_bucharest/static/media/0701890_orig.84393bfc.jpg",
+    "static/media/picture 1.jpg": "/real_time_iss_bucharest/static/media/picture 1.864a5684.jpg",
+    "static/media/picture 2.jpg": "/real_time_iss_bucharest/static/media/picture 2.d6721184.jpg",
+    "static/media/picture 3.jpg": "/real_time_iss_bucharest/static/media/picture 3.d4babe2f.jpg",
+    "static/media/picture 4.jpg": "/real_time_iss_bucharest/static/media/picture 4.ca3a07c7.jpg",
+    "static/media/picture 5.jpg": "/real_time_iss_bucharest/static/media/picture 5.76656d2f.jpg",
+    "static/media/picture 6.jpg": "/real_time_iss_bucharest/static/media/picture 6.7a348b20.jpg",
+    "static/media/picture 7.jpg": "/real_time_iss_bucharest/static/media/picture 7.6e2b63ea.jpg",
+    "static/media/picture_8.jpg": "/real_time_iss_bucharest/static/media/picture_8.f9dc1bcf.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4329763f.js",
-    "static/js/2.8a4042d9.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.e589d901.chunk.js"
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.1416a2c4.chunk.js",
+    "static/css/main.aba14b30.chunk.css",
+    "static/js/main.ffb36d19.chunk.js"
   ]
 }
