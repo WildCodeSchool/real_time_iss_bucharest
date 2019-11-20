@@ -1,3 +1,14 @@
+.small-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: absolute;
+  left: 15px;
+}
+
 .element2 {
   position: absolute;
   border-radius: 50%;
@@ -8,7 +19,7 @@
   margin: auto;
   width: 40px;
   height: 40px;
-  border: 1px solid black;
+  border: 1px solid white;
   -webkit-animation: rotate 3s infinite linear alternate;
   animation: rotate 3s infinite linear alternate;
 }

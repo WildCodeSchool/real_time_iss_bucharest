@@ -1,13 +1,15 @@
 
   
-  // .small-logo {
-  //   -webkit-transform-style: preserve-3d;
-  //           transform-style: preserve-3d;
-  //   width: 70px!important;
-  //   height: 70px!important;
-  //   margin: 10% 2%;
-  //   display: inline-block;
-  // }
+  .small-logo {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: 15px;
+    // width: 70px!important;
+    // height: 70px!important;
+    // margin: 10% 2%;
+    // display: inline-block;
+  }
   
   .element2 {
     position: absolute;
@@ -19,7 +21,7 @@
     margin: auto;
     width: 40px;
     height: 40px;
-    border: 1px solid black;
+    border: 1px solid white;
     // -webkit-box-shadow: inset 0 0 10px #FFFF00;
     //         box-shadow: inset 0 0 10px #FFFF00;
     -webkit-animation: rotate 3s infinite linear alternate;

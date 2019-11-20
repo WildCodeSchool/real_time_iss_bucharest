@@ -17,7 +17,7 @@
   margin: auto;
   width: 300px;
   height: 300px;
-  border: 3px solid black;
+  border: 2px solid black;
   -webkit-animation: rotate 5s infinite linear alternate;
   animation: rotate 5s infinite linear alternate;
 }

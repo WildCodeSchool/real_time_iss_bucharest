@@ -9,7 +9,6 @@ import Newsletter from './components/Newsletter'
 import Modal from './components/Modal'
 // import Logo from './components/Logo/Logo.js'
 import Footer from './components/Footer'
-import Navbar_Logo from './components/Navbar_Logo/Navbar_Logo'
 
 // import { tsConstructorType } from '@babel/types';
 
@@ -53,7 +52,7 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
-        <Header image = 'https://via.placeholder.com/70x60'/>
+        <Header/>
         <Welcome launchTracking={this.launchTracking.bind(this)} id='welcome'/>
         <div>
         <GMap id="mapSection" className="map map_component" welcomeBtn={this.state.btnFromWelcomeSectionClicked} />

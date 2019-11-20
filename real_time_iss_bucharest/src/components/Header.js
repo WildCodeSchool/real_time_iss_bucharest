@@ -2,13 +2,16 @@ import React from 'react';
 import { Navbar } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { Link } from "react-scroll";
+import Navbar_Logo from './Navbar_Logo/Navbar_Logo'
+
 
 
 
 const Header = (props) => {
   return (<div>
     <Navbar bg="dark" variant="dark" className='headerContainer'>
-      <img src={props.image} alt="logo" />
+      <Navbar_Logo/>
+      {/* <img src={props.image} alt="logo" /> */}
       <Nav className="mr-auto" className='navbarHeader'>
         <Nav.Link href="#">
 
