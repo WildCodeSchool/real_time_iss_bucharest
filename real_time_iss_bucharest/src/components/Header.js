@@ -9,8 +9,10 @@ import Navbar_Logo from './Navbar_Logo/Navbar_Logo';
 const Header = (props) => {
   return (<div>
     <Navbar bg="dark" variant="dark" className='headerContainer'>
-      <Navbar_Logo/>
-      {/* <img src={props.image} alt="logo" /> */}
+      <span>
+        <Navbar_Logo />
+      </span>
+
       <Nav className="mr-auto" className='navbarHeader'>
         <Nav.Link href="#">
 

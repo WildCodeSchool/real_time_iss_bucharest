@@ -42,7 +42,7 @@ const images = [{ src: require('../assets/carousel/picture 1.jpg') },
 { src: require('../assets/carousel/picture 7.jpg') },
 { src: require('../assets/carousel/picture_8.jpg') },];
 
-class Component extends React.Component {
+class GalleryCarousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -90,4 +90,4 @@ class Component extends React.Component {
   }
 }
 
-export default Component
+export default GalleryCarousel

@@ -4,7 +4,7 @@ import GMap from './components/Map'
 import Welcome from './components/Welcome'
 import News from './components/News';
 import NewsNumberOfPeople from './components/NewsNumberPeopleInSpace';
-import Component from './components/carousel'
+import GalleryCarousel from './components/GalleryCarousel'
 import Newsletter from './components/Newsletter'
 import Modal from './components/Modal'
 // import Logo from './components/Logo/Logo.js'
@@ -65,7 +65,7 @@ class App extends React.Component{
         <News title='Lorem Ipsum' subtitle='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus ac odio molestie, eu pretium dui faucibus. Curabitur eleifend eu eros ut hendrerit. '/>
         <News title='Lorem Ipsum' subtitle='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus ac odio molestie, eu pretium dui faucibus. Curabitur eleifend eu eros ut hendrerit. '/>
       </section>
-          <Component id='Carousel'/>
+          <GalleryCarousel id='Carousel'/>
         <Newsletter callBack={this.dataFn.bind(this)} id='newsletter'/>
         <Modal show={this.state.checkBoxThatOpensModal}/>
         <Footer />
