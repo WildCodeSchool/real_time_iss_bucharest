@@ -22,11 +22,21 @@ export default class NewsNumberPersonInSpace extends React.Component {
     render() {
         return (
             <News
+            className='newsCard'
             title='People that are in space now'
              text = {
-              <ul className='peopleThatAreInSpace'>
-              {this.state.persons.map(person => <li>{person.name}</li>)}
+               <div class='containerNews' >
+                 <span>
+                    <img src=' https://spacecenter.org/wp-content/uploads/2019/01/ISS-Debrief.jpg' class='imageNews'/>
+                 </span>
+               <span>
+               <ul className='peopleThatAreInSpace'>
+               {this.state.persons.map(person => <li>{person.name}</li>)}
              </ul>
+               </span>
+
+               </div>
+         
             }/>
         );
     }

@@ -1,166 +1,156 @@
-.headerContainer {		
-  display: flex;		
-  justify-content: space-between;		
-}		
+.newsBox{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
 
- .navbar-expand {		
-  flex-flow: row nowrap!important;		
-  /* justify-content: flex-end; */		
-}		
+.containerNews {
+  display:flex;
 
-.header_logo{
+}
+
+.imageNews {
+  width: 250px;
+}
+
+.welcome-call-to-action {
+  margin-top: 25px;
+  height: 35px;
+  width: 670px;
+ }
+
+.headerContainer {        
+  display: flex;        
+  justify-content: space-between;        
+ }        
+ .navbar-expand {        
+  flex-flow: row nowrap!important;        
+  /* justify-content: flex-end; */        
+ }        
+ .header_logo{
   height: 60px;
-}
-.App-link {		
-  color: #09d3ac;		
-}		
-
- /* .head_map_section{		
-  display: flex;		
-  flex-direction: row;		
-} */		
-
- .btn-container{		
-  display:flex;		
-  flex-direction: row;		
-  justify-content: center;		
-}		
-
- .btn-container p {		
-  margin-left: 50px;		
-}		
-
- .btn-container button {		
-  height: 35px;		
-}		
-
- .coordinates{		
-  display:flex;		
-  flex-direction: row;		
-}		
-/* 		
-.map {		
-  position: relative;		
-  width: 95vw;		
-  height: 120vh;		
-} */		
-
-
- /* .justTheMap{		
-  z-index: -1;		
-  position: absolute;		
-  height: 80vh;		
-} */		
-
- .btn-container {		
-  z-index: 1000;		
-  position: absolute;		
-  margin-top: 200px;		
- }		
-
- .newsSection {		
-  display: flex;		
-  flex-wrap: wrap;		
-  max-width: 1000px;		
-  margin: 0 auto;		
-  justify-content: center;		
-  align-content: center;		
-
- }		
-
- .newsBox {		
-  margin: 20px;		
-  height: 249px;		
-}		
-
- .newsBoxContainer {		
-  display: flex;		
-  align-items: center;		
-}		
-
- .newsBoxText {		
-  text-align: center;		
-}		
-
- .peopleThatAreInSpace {		
-  list-style: none;		
-}		
-
- .newsBoxTitle {		
-  text-align: center;		
-}		
-.imageCarousel {		
-    width: 220px;		
-    height: 150px;		
-}		
-
- .containerCarousel {		
-    display: flex;		
-    justify-content: center;		
-    flex-wrap: wrap;		
-    margin: -10px		
-}		
-
- .containerCarousel>* {		
-    flex: 1 1 1 1 220px;		
-    margin: 10px;		
-}		
-
- .wrapperCarousel {		
-    max-width: 1100px;		
-    margin: 0 auto;		
-}		
-.form-container {		  
+ }
+ .App-link {        
+  color: #09d3ac;        
+ }        
+ /* .head_map_section{        
+  display: flex;        
+  flex-direction: row;        
+ } */        
+ .btn-container{        
+  display:flex;        
+  flex-direction: row;        
+  justify-content: center;        
+ }        
+ .btn-container p {        
+  margin-left: 50px;        
+ }        
+ .btn-container button {        
+  height: 35px;        
+ }        
+ .coordinates{        
+  display:flex;        
+  flex-direction: row;        
+ }        
+ /*         
+ .map {        
+  position: relative;        
+  width: 95vw;        
+  height: 120vh;        
+ } */        
+ /* .justTheMap{        
+  z-index: -1;        
+  position: absolute;        
+  height: 80vh;        
+ } */        
+ .btn-container {        
+  z-index: 1000;        
+  position: absolute;        
+  margin-top: 200px;        
+ }        
+ .newsSection {        
+  display: flex;        
+  flex-wrap: wrap;        
+  max-width: 1000px;        
+  margin: 0 auto;        
+  justify-content: center;        
+  align-content: center;        
+ }        
+ .newsBox {        
+  margin: 20px;        
+  height: 249px;        
+ }        
+ .newsBoxContainer {        
+  display: flex;        
+  align-items: center;        
+ }        
+ .newsBoxText {        
+  text-align: left;        
+ }        
+ .peopleThatAreInSpace {        
+  list-style: none;        
+ }        
+ .newsBoxTitle {        
+  text-align: center;        
+ }        
+ .imageCarousel {        
+    width: 220px;        
+    height: 150px;        
+ }        
+ .containerCarousel {        
+    display: flex;        
+    justify-content: center;        
+    flex-wrap: wrap;        
+    margin: -10px        
+ }        
+ .containerCarousel>* {        
+    flex: 1 1 1 1 220px;        
+    margin: 10px;        
+ }        
+ .wrapperCarousel {        
+    max-width: 1100px;        
+    margin: 0 auto;        
+ }        
+ .form-container {          
   height: 80vh;
-  margin-top: 30px;		
-}		
-.form-container {
+  margin-top: 30px;        
+ }        
+ .form-container {
   height: 80vh;
-}
-
-.rowThatWorks {
+ }
+ .rowThatWorks {
   height: 80vh;
-}
-
-.newsletter-section {
+ }
+ .newsletter-section {
   height: 100vh;
-}
-
-.newsletter {
+ }
+ .newsletter {
   min-height: 85vh;
-}
-
-.newsletter-inputs {
+ }
+ .newsletter-inputs {
   padding-bottom: 20px;
-}
-
-.newsletter-section {
+ }
+ .newsletter-section {
   height: 100vh;
-}
-
-.newsletter {
+ }
+ .newsletter {
   min-height: 85vh;
-}
-
-.newsletter-inputs {
+ }
+ .newsletter-inputs {
   padding-bottom: 20px;
-}
-
-.display-5 {
+ }
+ .display-5 {
   padding-bottom: 20px;
-}
-
-.modalHeader {
+ }
+ .modalHeader {
   color: red;
   font-size: 25px;
   font-weight: 800;
-}
-
-.cancelBtn {
+ }
+ .cancelBtn {
   visibility: hidden;
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
+ }
+ @media (min-width: 993px) and (max-width: 1200px) {
   .display-4 {
     font-size: 3.5rem;
     font-weight: 300;
@@ -169,17 +159,15 @@
   .form-img {
     height: 400px;
   }
-}
-
-@media (min-width: 768px) and (max-width: 993px) {
+ }
+ @media (min-width: 768px) and (max-width: 993px) {
   .display-4 {
     font-size: 3rem;
     font-weight: 300;
     line-height: 1.0;
   }
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
+ }
+ @media (min-width: 576px) and (max-width: 768px) {
   .display-4 {
     font-size: 2.5rem;
     font-weight: 300;
@@ -200,5 +188,4 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-}
-/*# sourceMappingURL=App.css.map */
+ }
